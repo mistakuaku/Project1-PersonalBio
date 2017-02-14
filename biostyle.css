@@ -1,3 +1,25 @@
 body{
   background-color: white;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
+  font-size: 1.17em;
+  margin: 0;
+
+}
+
+div.navbar{
+  background-color: #cdcdcd;
+}
+
+div.navbutton{
+  background-color: #cdcdcd;
+
+}
+
+span.navbutton:hover{
+  background-color: #494949;
+
+}
+
+a:hover {
+  color: white;
 }
