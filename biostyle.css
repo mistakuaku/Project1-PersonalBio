@@ -1,25 +1,26 @@
 body{
   background-color: white;
   font-family: Calibri, Helvetica, Arial, sans-serif;
-  font-size: 1.17em;
   margin: 0;
-
 }
 
 div.navbar{
   background-color: #cdcdcd;
-}
-
-div.navbutton{
-  background-color: #cdcdcd;
+  font-size: 1.17em;
+  text-align: center;
 
 }
 
-span.navbutton:hover{
-  background-color: #494949;
-
+a.navlink {
+  text-decoration: none;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  <!-- https://www.w3schools.com/css/css_link.asp -->
 }
 
-a:hover {
+a.navlink:hover {
   color: white;
+  background-color: #494949;
 }
