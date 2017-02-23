@@ -1,11 +1,11 @@
 body{
-  background-color: white;
+  background-color: #DFCDB4;
   font-family: Calibri, Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
-div.navbar{
-  background-color: #cdcdcd;
+.navbar{
+  background-color: #B0A18F;
   font-size: 1.17em;
   text-align: center;
 
@@ -14,17 +14,38 @@ div.navbar{
 a.navlink {
   text-decoration: none;
   color: black;
-  padding: 14px 25px;
+  padding: 0.875em 1.5625em;
   text-align: center;
   display: inline-block;
-  <!-- https://www.w3schools.com/css/css_link.asp -->
+  /* Learned some stuff about how to make this navbar here:
+   https://www.w3schools.com/css/css_link.asp */
 }
 
 a.navlink:hover {
   color: white;
-  background-color: #494949;
+  background-color: #6B5D4D;
 }
 
-h1.topbar{
-  padding-left: 10px;
+.topbar{
+  text-align: center;
+  background-color: #429398;
+  color: white;
+  padding: 1.25em;
+  /*All my color palletes are located here:
+  http://www.colourlovers.com/palette/1389950/teal_brocade*/
+}
+
+.content{
+  margin: 1.5625em;
+  background-color: #FBEED3;
+  border-radius: 0.3125em;
+  padding: 1.5625em;
+  box-shadow: 0.3125em 0.3125em 0.3125em #6B5D4D;
+  /*Learned this from a couple of different places and combined my knowledge.
+  Idea for boxed like content:
+  https://www.w3schools.com/css/css_boxmodel.asp
+  Shadow effects:
+  https://www.w3schools.com/css/css3_shadows.asp
+  Rounded borders:
+  https://www.w3schools.com/css/css3_borders.asp*/
 }
