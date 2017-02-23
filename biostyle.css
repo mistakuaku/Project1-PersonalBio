@@ -8,9 +8,6 @@ div.navbar{
   background-color: #B0A18F;
   font-size: 1.17em;
   text-align: center;
-  position: fixed;
-  top: 20%;
-  width: 100%;
 }
 
 a.navlink {
@@ -34,20 +31,12 @@ div.topbar{
   background-color: #429398;
   color: white;
   padding: 1.25em;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 200px;
   /*All my color palletes are located here:
   http://www.colourlovers.com/palette/1389950/teal_brocade*/
 }
 
 .content{
-  margin-top: 270px;
-  margin-left: 1.5625em;
-  margin-right: 1.5625em;
-  margin-bottom: 40px;
-  /*margin: 1.5625em;*/
+  margin: 1.5625em;
   background-color: #FBEED3;
   border-radius: 0.3125em;
   padding: 1.5625em;
