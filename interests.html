@@ -27,30 +27,33 @@
     </div>
 
     <div class="content">
-      <h2>What moves me</h2>
-      <p>
-        I have a lot of hobbies and interests. Most of them being computer
-        related hence why I'm a computer information systems major in the first
-        place. Everyone tells you to follow your passion so that is exactly what
-        I'm doing.
-      </p>
 
-
-        <div>
-          <img src="https://i.imgur.com/XgoyW1q.jpg">
-          <div class="navbar">
-            <a href="#">&laquo;</a>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">&raquo;</a>
+        <div class="column">
+          <img id="pics" src="https://i.imgur.com/XgoyW1q.jpg">
+          <div class="source"><a href="https://imgur.com/gallery/TrFXJ#EAxH0vV">
+            [Image Source]</a></div>
+          <div class="gallery">
+            <!-- I know I'm getting ahead of myself here with the JS but I -->
+            <!-- couldn't help but add this cool code it makes it look cool -->
+            <!-- got the ideas from: https://www.w3schools.com/js/js_intro.asp -->
+            <!-- and https://www.w3schools.com/css/css3_pagination.asp -->
+            <a href="#" onclick="document.getElementById('pics').src='https://i.imgur.com/XgoyW1q.jpg'">1</a>
+            <a href="#" onclick="document.getElementById('pics').src='https://i.imgur.com/2YhkOQj.jpg'">2</a>
           </div>
         </div>
-        <div>
+        <div class="column">
+          <h2>What moves me</h2>
+          <p>
+            I have a lot of hobbies and interests. Most of them being computer
+            related hence why I'm a computer information systems major in the first
+            place. Everyone tells you to follow your passion so that is exactly what
+            I'm doing.
+          </p>
           <ul>
             <li> Blah blah blah</li>
             <li>blah blah blah</li>
+          </ul>
         </div>
-
 
       </div>
 
