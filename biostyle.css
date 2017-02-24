@@ -1,31 +1,36 @@
-body{
+body {
   background-color: #DFCDB4;
   font-family: Calibri, Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
-div.navbar{
+.navbar {
   background-color: #B0A18F;
-  font-size: 150%;
   text-align: center;
 }
 
-a.navlink {
+.navbar a {
   text-decoration: none;
   color: black;
   padding: 0.875em 1.5625em;
   text-align: center;
   display: inline-block;
+  font-size: 120%;
   /* Learned some stuff about how to make this navbar here:
    https://www.w3schools.com/css/css_link.asp */
 }
 
-a.navlink:hover {
+.navbar a:hover {
   color: white;
   background-color: #6B5D4D;
 }
 
-div.topbar{
+.navbar a.active {
+  background-color: #429398;
+  color: white;
+}
+
+div.topbar {
   overflow: hidden;
   text-align: center;
   background-color: #429398;
@@ -35,7 +40,7 @@ div.topbar{
   http://www.colourlovers.com/palette/1389950/teal_brocade*/
 }
 
-.content{
+.content {
   margin: 1.5625em;
   background-color: #FBEED3;
   border-radius: 0.3125em;
@@ -48,4 +53,19 @@ div.topbar{
   https://www.w3schools.com/css/css3_shadows.asp
   Rounded borders:
   https://www.w3schools.com/css/css3_borders.asp*/
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+img + .navbar a {
+  padding: 10px 20px;
+  font-size: 100%;
+
+}
+
+div.content > div {
+  float: left;
 }
