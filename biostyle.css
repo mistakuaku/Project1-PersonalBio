@@ -101,3 +101,9 @@ text-align: center;
   color: white;
   background-color: #6B5D4D;
 }
+
+span.code {
+  background-color: lightgrey;
+  font-family: monospace;
+  color: black;
+}
